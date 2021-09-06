@@ -1,0 +1,62 @@
+/* header
+brand_logo
+navigation
+nav */
+
+.header{
+    width: 100%;
+    margin: auto;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 938px) {
+    .header nav{
+        justify-content: center;
+    }    
+}
+
+.brand_logo img{
+    width: 260px;
+    height: 216px;
+}
+.navigation{
+    float: right;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.nav li{
+    margin-left: 3rem;
+}
+.nav a{
+    text-decoration: none;
+    color: #FFB027;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.cart{
+    width: 112px;
+    height: 112px;
+    background: transparent linear-gradient(316deg, #1A1D21 0%, #262627 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -10px -10px 40px #FFFFFF33;
+    border-radius: 253px;
+    opacity: 0.9;
+    position: relative;
+}
+.cart img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,8 @@
+.App{
+  background: url("./assets/particles@2x.png"),#1A1D21;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: cadetblue;
+  padding: 5rem;
+}

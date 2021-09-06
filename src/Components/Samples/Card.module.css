@@ -1,0 +1,83 @@
+.card{
+    width: 600px;
+    height: 400px;
+    background: #1A1D21;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow:  11px 11px 19px #1A1D21,
+             -11px -11px 19px #262627;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.title .orange{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(#FF1111,#FF8000);
+    border-radius: 10px;
+}
+.blue{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(#00D4FF,#005DFF);
+    border-radius: 10px;
+}
+.green{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(#11ff25,#ffae00);
+    border-radius: 10px;
+}
+.title .purple{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(#A011FF,#5D00FF);
+    border-radius: 10px;
+}
+.card h2{
+    color: #707070;
+    font-size: 25px;
+    text-align: right;
+}
+.card p{
+    text-align: center;
+    font-size: 20px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+button{
+    font-size: 25px;
+    padding: 30px 50px;
+    background: #1A1D21;
+    border: none;
+    font-weight: 600;
+    border-radius: 50px;
+    color: tomato;
+        box-shadow: -5px -5px 10px 2px #3a3636;
+
+}
+
+.o{
+    color: #FF4B08;
+}
+
+.b{
+    color: #0097FF;
+}
+.p{
+    color: #7E08FF;
+}
+.g{
+    color: #00FF91;
+}
